@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title> Contato - Minha Barbearia</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=My+Soul&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+                    <div class="caixa">
+        
+                        <h1><img src="https://i.pinimg.com/736x/09/77/c1/0977c10d4a5431ae9b0979747bc6fa9a.jpg"><h2>Minha Barbearia</h2></h1>
+                            
+                        
+                        
+                            <ul>
+                                <li><a href="Index.html">Home</a></li>
+                                <li><a href="Minha Barbearia.html">Produtos</a></li>
+                                <li><a href="Minha Barbearia - contato.html">Contato</a></li>
+                            </ul>
+
+                        
+                    </div>
+        </header>
+
+        <main>
+            
+                <form>
+                        <label for="nome"> Nome e Sobrenome:</label>
+                        <br>
+                        <input type="text" id="nome" class="input-padrao" required placeholder="Escreva seu nome aqui">
+                        <br>
+                        <label for="email"> Email:</label>
+                        <br>
+                        <input type="email" id="email" class="input-padrao" required placeholder="email@dominio.com">
+                        <br>
+                        <label for="telefone"> Telefone:</label>
+                        <br>
+                        <input type="tel" id="telefone" class="input-padrao" placeholder="(XX)XXXXX-XXXX" required>
+                        <br>
+                        <label for="mensagem">Escreva sua mensagem:</label>
+                        <br>
+                        <textarea id="mensagem" rows="10" required class="input-padrao" placeholder="Escreva sua mensagem aqui"></textarea>
+                        <br>
+                    <fieldset>
+                        <legend>Como podemos entrar em contato com você?</legend>
+                        <br>
+
+                        <label for="radio-whatsapp" class="radios-label"><input type="radio" id="radio-whatsapp" name="radios" checked > Whatsapp</label>
+                        <br>
+                        
+                        <label for="radio-telefone" class="radios-label"><input type="radio" id="radio-telefone" name="radios" > Telefone</label>
+                        <br>
+
+                        <label for="radio-email" class="radios-label"><input type="radio" id="radio-email" name="radios" > Email</label>
+                        <br>
+
+                        
+                    </fieldset>
+
+                    <fieldset>
+
+                    <legend>Em qual horário prefere ser atendido?</legend>
+                    <br>
+                    <select>
+                        <br>
+                        <option>Manhã</option>
+                        <br>
+                        <option>Tarde</option>
+                        <br>
+                        <option>Noite</option>
+                    </select>
+                    <br>
+                    <label for="checkbox"><input type="checkbox" id="checkbox" checked>Gostaria de receber nossas notícias e novidades por email?</input></label>
+
+                     </fieldset>
+                     <br>
+                     <input type="submit" id="enviar" value="Enviar Mensagem" class="input-padrao">
+
+
+                </form>
+        </main>
+
+        <footer>
+            <p>©Copyright Minha Barbearia -2022</p>
+            <img src="caveirão.png">
+        </footer>
+    </body>
+</html>
